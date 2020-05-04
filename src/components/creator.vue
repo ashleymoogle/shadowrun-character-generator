@@ -18,6 +18,10 @@
     name: 'class-view',
     components: { tooltip },
     setup(props, context) {
+      // +10 points par stat
+      // +25 pour le dernier point max
+      // Une seule stat peut etre max
+      // Pas plus de la moitie du total des points
       const $router = useRouter()
       const $route = $router.currentRoute
 
@@ -28,12 +32,6 @@
       })
 
       onMounted(async () => {
-        /*
-        const data = await import(`../data/${$route.params.name}`)
-        state.json = JSON.parse(JSON.stringify(data))
-        state.rpgClass = classParse(state.json)
-        console.log('format', state.rpgClass)
-        */
         state.isLoading = false
       })
 
