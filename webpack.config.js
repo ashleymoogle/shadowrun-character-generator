@@ -13,14 +13,6 @@ const configuration = require('./config')
 
 const TARGET = process.env.NODE_ENV || 'development'
 
-const SERVE = process.env.SERVE || 'build'
-
-// SERVE=build NODE_ENV=production is to build the production version (For the CI)
-
-// SERVE=development NODE_ENV=development is to serve the dev version on the dev server
-
-// SERVE=development NODE_ENV=production is to serve the production version on the dev server
-
 const config = {
   mode: TARGET,
   stats: 'errors-warnings',
@@ -211,7 +203,7 @@ if (TARGET === 'production') {
   })
 }
 
-if (SERVE === 'development' || SERVE === undefined) {
+if (TARGET === 'development' || TARGET === undefined) {
   console.log('start dev server')
 
   conf = merge(config, {

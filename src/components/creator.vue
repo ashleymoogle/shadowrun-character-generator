@@ -10,35 +10,22 @@
 </template>
 
 <script>
-  import {onMounted, reactive, toRefs, ref} from '@vue/composition-api'
-  import classParse from '../utils/classParse.js'
-  import { useRouter } from '../router'
   import tooltip from './partials/tooltip.vue'
   export default {
     name: 'class-view',
     components: { tooltip },
-    setup(props, context) {
+    data() {
+      return {
+        isLoading: true
+      }
+    },
+    mounted() {
+      this.isLoading = false
+    }
       // +10 points par stat
       // +25 pour le dernier point max
       // Une seule stat peut etre max
       // Pas plus de la moitie du total des points
-      const $router = useRouter()
-      const $route = $router.currentRoute
-
-      const state = reactive({
-        isLoading: true,
-        json: {},
-        rpgClass: {}
-      })
-
-      onMounted(async () => {
-        state.isLoading = false
-      })
-
-      return {
-        ...toRefs(state)
-      }
-    }
   }
 </script>
 

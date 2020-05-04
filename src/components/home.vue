@@ -1,7 +1,7 @@
 <template>
   <div class="wrapper">
     <h1>
-      {{ $t('hello') }}
+      {{ $t('hello') }} derp
     </h1>
     <div class="btn-data">
       Count is: {{ state.count }}, double is: {{ state.double }}

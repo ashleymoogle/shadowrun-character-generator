@@ -5,6 +5,11 @@
   "repository": "https://github.com/ashleymoogle/vue-composition-test.git",
   "author": "Romain 'Ashley' Bonhomme <romain.bonhomme89@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint packages -c ./eslint.config.js '*/.{js,vue}'",
+    "set": "SET NODE_ENV=development && yarn run app",
+    "app": "webpack --progress --json > stats.json && webpack-dev-server"
+  },
   "dependencies": {
     "@babel/cli": "^7.1.0",
     "@babel/core": "^7.1.2",
