@@ -1,7 +1,16 @@
 <template>
   <div class="wrapper-class">
-    <div v-if="!isLoading">
-      Hello
+    <div v-if="!isLoading" >
+      <div class="line-element">
+        CP : <input v-model="cp" type="number" :min="cpLeft" max="1000" @input="restrictCp" />
+      </div>
+      <div class="line-element">
+        cp: {{cp}} / left: {{cpLeft}}
+      </div>
+      <div class="line-element">
+          <attributes :race="char.race" :attributes="char.attributes" /> 
+      </div>
+      <tree-view :data="char" :options="{maxDepth: 100}"></tree-view>
     </div>
     <div v-else>
       loading...
@@ -10,17 +19,54 @@
 </template>
 
 <script>
+  import mapRaces from '../data/races'
+  import attributes from './attributes.vue'
   import tooltip from './partials/tooltip.vue'
   export default {
     name: 'class-view',
-    components: { tooltip },
+    components: { attributes, tooltip },
     data() {
       return {
-        isLoading: true
+        spent: 0,
+        isLoading: true,
+        cp: 300,
+        char: {
+          race: 'human',
+          traits: mapRaces['human'].traits,
+          attributes: mapRaces['human'].attributes 
+        }
+      }
+    },
+    computed: {
+      cpAfterRace() {
+        return this.cp - mapRaces[this.char.race].cost
+      },
+      cpLeft() {
+        return this.cpAfterRace - this.spent
       }
     },
     mounted() {
       this.isLoading = false
+    },
+    methods: {
+      restrictCp(e) {
+        const nb = e.target.value
+        if(this.cpLeft <= 0) {
+          this.cp = nb - this.cpLeft
+          this.render++
+        }
+        if(nb > 1000){
+          this.cp = 1000
+        }
+      },
+      spend(nb){
+        this.spent += nb
+      },
+      unspend(nb){
+        if(this.spent - nb >= 0){
+          this.spent -= nb
+        }
+      }
     }
       // +10 points par stat
       // +25 pour le dernier point max
@@ -32,25 +78,8 @@
 <style lang="scss" scoped>
   .wrapper-class {
     padding: 20px;
-    .desc {
-      margin: 10px 0;
-    }
-    .supplement {
-      margin: 10px 0;
-      .is-bold {
-        font-weight: bolder;
-      }
-      .supplement-item {
-        margin: 10px 0;
-      }
-    }
-    .skills {
-      margin: 10px 0;
-      display: flex;
-      flex-wrap: wrap;
-      .skill {
-        margin-right: 5px;
-      }
+    .line-element{
+      margin-bottom: 20px;
     }
     .tree-view-wrapper {
       min-height: 20px;
