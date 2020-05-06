@@ -2,13 +2,21 @@
   <div class="wrapper-class">
     <div v-if="!isLoading" >
       <div class="line-element">
-        CP : <input v-model="cp" type="number" :min="cpLeft" max="1000" @input="restrictCp" />
+        CP : <input v-model="cp" type="number" :min="cpLeft-1" max="1000" @input="restrictCp" />
       </div>
       <div class="line-element">
         cp: {{cp}} / left: {{cpLeft}}
       </div>
       <div class="line-element">
-          <attributes :race="char.race" :attributes="char.attributes" /> 
+        <select v-model="race">
+          <option v-for="raceName in races" :key="raceName" >
+            {{raceName}} 
+          </option>
+        </select>
+        / cost : {{raceCost}}
+      </div>
+      <div class="line-element">
+          <attributes :race="race" :attributes="attributes" :total-cp="cp" /> 
       </div>
       <tree-view :data="char" :options="{maxDepth: 100}"></tree-view>
     </div>
@@ -30,19 +38,33 @@
         spent: 0,
         isLoading: true,
         cp: 300,
-        char: {
-          race: 'human',
-          traits: mapRaces['human'].traits,
-          attributes: mapRaces['human'].attributes 
-        }
+        race: 'human',
+        races: ['human', 'ork', 'dwarf', 'elf', 'troll']
       }
     },
     computed: {
       cpAfterRace() {
-        return this.cp - mapRaces[this.char.race].cost
+        return this.cp - mapRaces[this.race].cost
+      },
+      raceCost() {
+        return mapRaces[this.race].cost
       },
       cpLeft() {
         return this.cpAfterRace - this.spent
+      },
+      traits() {
+        return mapRaces[this.race].traits
+      },
+      attributes() {
+        return mapRaces[this.race].attributes 
+      },
+      char() {
+        return {
+          cp: this.cp,
+          race: this.race,
+          traits: this.traits,
+          attributes: this.attributes
+        }
       }
     },
     mounted() {

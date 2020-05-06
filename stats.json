@@ -70,12 +70,75 @@ start dev server
       "warnings": 0
     },
     {
+      "id": "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/components/attributes.vue?vue&type=script&lang=js&",
+      "identifier": "C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\vue-loader\\lib\\index.js??vue-loader-options!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\src\\components\\attributes.vue?vue&type=script&lang=js&",
+      "name": "./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/components/attributes.vue?vue&type=script&lang=js&",
+      "index": 86,
+      "index2": 81,
+      "size": 1644,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "creator"
+      ],
+      "issuer": "C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\vue-loader\\lib\\loaders\\pitcher.js??ref--4!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\vue-loader\\lib\\index.js??vue-loader-options!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\src\\components\\attributes.vue?vue&type=script&lang=js&",
+      "issuerId": "./src/components/attributes.vue?vue&type=script&lang=js&",
+      "issuerName": "./src/components/attributes.vue?vue&type=script&lang=js&",
+      "issuerPath": [
+        {
+          "id": "./src/index.js",
+          "identifier": "C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\src\\index.js",
+          "name": "./src/index.js"
+        },
+        {
+          "id": "./src/router/index.js",
+          "identifier": "C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\src\\router\\index.js",
+          "name": "./src/router/index.js"
+        },
+        {
+          "id": "./src/router/routes.js",
+          "identifier": "C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\src\\router\\routes.js",
+          "name": "./src/router/routes.js"
+        },
+        {
+          "id": "./src/components/creator.vue",
+          "identifier": "C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\vue-loader\\lib\\index.js??vue-loader-options!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\src\\components\\creator.vue",
+          "name": "./src/components/creator.vue"
+        },
+        {
+          "id": "./src/components/creator.vue?vue&type=script&lang=js&",
+          "identifier": "C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\vue-loader\\lib\\loaders\\pitcher.js??ref--4!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\vue-loader\\lib\\index.js??vue-loader-options!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\src\\components\\creator.vue?vue&type=script&lang=js&",
+          "name": "./src/components/creator.vue?vue&type=script&lang=js&"
+        },
+        {
+          "id": "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/components/creator.vue?vue&type=script&lang=js&",
+          "identifier": "C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\vue-loader\\lib\\index.js??vue-loader-options!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\src\\components\\creator.vue?vue&type=script&lang=js&",
+          "name": "./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/components/creator.vue?vue&type=script&lang=js&"
+        },
+        {
+          "id": "./src/components/attributes.vue",
+          "identifier": "C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\vue-loader\\lib\\index.js??vue-loader-options!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\src\\components\\attributes.vue",
+          "name": "./src/components/attributes.vue"
+        },
+        {
+          "id": "./src/components/attributes.vue?vue&type=script&lang=js&",
+          "identifier": "C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\vue-loader\\lib\\loaders\\pitcher.js??ref--4!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\vue-loader\\lib\\index.js??vue-loader-options!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\src\\components\\attributes.vue?vue&type=script&lang=js&",
+          "name": "./src/components/attributes.vue?vue&type=script&lang=js&"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
       "id": "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/components/creator.vue?vue&type=script&lang=js&",
       "identifier": "C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\vue-loader\\lib\\index.js??vue-loader-options!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\src\\components\\creator.vue?vue&type=script&lang=js&",
       "name": "./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/components/creator.vue?vue&type=script&lang=js&",
       "index": 80,
-      "index2": 79,
-      "size": 1119,
+      "index2": 87,
+      "size": 1928,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -529,11 +592,74 @@ start dev server
       "warnings": 0
     },
     {
+      "id": "./node_modules/mini-css-extract-plugin/dist/loader.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/resolve-url-loader/index.js!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./src/components/attributes.vue?vue&type=style&index=0&id=7d0773e7&lang=scss&scoped=true&",
+      "identifier": "C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\css-loader\\index.js??ref--2-1!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\vue-loader\\lib\\loaders\\stylePostLoader.js!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\postcss-loader\\src\\index.js??ref--2-2!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\resolve-url-loader\\index.js!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\sass-loader\\dist\\cjs.js??ref--2-4!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\vue-loader\\lib\\index.js??vue-loader-options!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\src\\components\\attributes.vue?vue&type=style&index=0&id=7d0773e7&lang=scss&scoped=true&",
+      "name": "./node_modules/mini-css-extract-plugin/dist/loader.js!./node_modules/css-loader??ref--2-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--2-2!./node_modules/resolve-url-loader!./node_modules/sass-loader/dist/cjs.js??ref--2-4!./node_modules/vue-loader/lib??vue-loader-options!./src/components/attributes.vue?vue&type=style&index=0&id=7d0773e7&lang=scss&scoped=true&",
+      "index": 88,
+      "index2": 84,
+      "size": 39,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "creator"
+      ],
+      "issuer": "C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\vue-loader\\lib\\loaders\\pitcher.js??ref--4!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\css-loader\\index.js??ref--2-1!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\postcss-loader\\src\\index.js??ref--2-2!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\resolve-url-loader\\index.js!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\sass-loader\\dist\\cjs.js??ref--2-4!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\vue-loader\\lib\\index.js??vue-loader-options!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\src\\components\\attributes.vue?vue&type=style&index=0&id=7d0773e7&lang=scss&scoped=true&",
+      "issuerId": "./src/components/attributes.vue?vue&type=style&index=0&id=7d0773e7&lang=scss&scoped=true&",
+      "issuerName": "./src/components/attributes.vue?vue&type=style&index=0&id=7d0773e7&lang=scss&scoped=true&",
+      "issuerPath": [
+        {
+          "id": "./src/index.js",
+          "identifier": "C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\src\\index.js",
+          "name": "./src/index.js"
+        },
+        {
+          "id": "./src/router/index.js",
+          "identifier": "C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\src\\router\\index.js",
+          "name": "./src/router/index.js"
+        },
+        {
+          "id": "./src/router/routes.js",
+          "identifier": "C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\src\\router\\routes.js",
+          "name": "./src/router/routes.js"
+        },
+        {
+          "id": "./src/components/creator.vue",
+          "identifier": "C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\vue-loader\\lib\\index.js??vue-loader-options!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\src\\components\\creator.vue",
+          "name": "./src/components/creator.vue"
+        },
+        {
+          "id": "./src/components/creator.vue?vue&type=script&lang=js&",
+          "identifier": "C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\vue-loader\\lib\\loaders\\pitcher.js??ref--4!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\vue-loader\\lib\\index.js??vue-loader-options!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\src\\components\\creator.vue?vue&type=script&lang=js&",
+          "name": "./src/components/creator.vue?vue&type=script&lang=js&"
+        },
+        {
+          "id": "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/components/creator.vue?vue&type=script&lang=js&",
+          "identifier": "C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\vue-loader\\lib\\index.js??vue-loader-options!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\src\\components\\creator.vue?vue&type=script&lang=js&",
+          "name": "./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/components/creator.vue?vue&type=script&lang=js&"
+        },
+        {
+          "id": "./src/components/attributes.vue",
+          "identifier": "C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\vue-loader\\lib\\index.js??vue-loader-options!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\src\\components\\attributes.vue",
+          "name": "./src/components/attributes.vue"
+        },
+        {
+          "id": "./src/components/attributes.vue?vue&type=style&index=0&id=7d0773e7&lang=scss&scoped=true&",
+          "identifier": "C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\vue-loader\\lib\\loaders\\pitcher.js??ref--4!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\css-loader\\index.js??ref--2-1!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\postcss-loader\\src\\index.js??ref--2-2!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\resolve-url-loader\\index.js!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\sass-loader\\dist\\cjs.js??ref--2-4!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\vue-loader\\lib\\index.js??vue-loader-options!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\src\\components\\attributes.vue?vue&type=style&index=0&id=7d0773e7&lang=scss&scoped=true&",
+          "name": "./src/components/attributes.vue?vue&type=style&index=0&id=7d0773e7&lang=scss&scoped=true&"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
       "id": "./node_modules/mini-css-extract-plugin/dist/loader.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/resolve-url-loader/index.js!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./src/components/creator.vue?vue&type=style&index=0&id=2716144c&lang=scss&scoped=true&",
       "identifier": "C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\css-loader\\index.js??ref--2-1!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\vue-loader\\lib\\loaders\\stylePostLoader.js!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\postcss-loader\\src\\index.js??ref--2-2!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\resolve-url-loader\\index.js!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\sass-loader\\dist\\cjs.js??ref--2-4!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\vue-loader\\lib\\index.js??vue-loader-options!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\src\\components\\creator.vue?vue&type=style&index=0&id=2716144c&lang=scss&scoped=true&",
       "name": "./node_modules/mini-css-extract-plugin/dist/loader.js!./node_modules/css-loader??ref--2-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--2-2!./node_modules/resolve-url-loader!./node_modules/sass-loader/dist/cjs.js??ref--2-4!./node_modules/vue-loader/lib??vue-loader-options!./src/components/creator.vue?vue&type=style&index=0&id=2716144c&lang=scss&scoped=true&",
-      "index": 83,
-      "index2": 82,
+      "index": 91,
+      "index2": 90,
       "size": 39,
       "cacheable": true,
       "built": true,
@@ -1065,12 +1191,75 @@ start dev server
       "warnings": 0
     },
     {
+      "id": "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/components/attributes.vue?vue&type=template&id=7d0773e7&scoped=true&",
+      "identifier": "C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\vue-loader\\lib\\loaders\\templateLoader.js??vue-loader-options!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\vue-loader\\lib\\index.js??vue-loader-options!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\src\\components\\attributes.vue?vue&type=template&id=7d0773e7&scoped=true&",
+      "name": "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/components/attributes.vue?vue&type=template&id=7d0773e7&scoped=true&",
+      "index": 84,
+      "index2": 79,
+      "size": 2058,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "creator"
+      ],
+      "issuer": "C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\vue-loader\\lib\\loaders\\pitcher.js??ref--4!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\vue-loader\\lib\\index.js??vue-loader-options!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\src\\components\\attributes.vue?vue&type=template&id=7d0773e7&scoped=true&",
+      "issuerId": "./src/components/attributes.vue?vue&type=template&id=7d0773e7&scoped=true&",
+      "issuerName": "./src/components/attributes.vue?vue&type=template&id=7d0773e7&scoped=true&",
+      "issuerPath": [
+        {
+          "id": "./src/index.js",
+          "identifier": "C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\src\\index.js",
+          "name": "./src/index.js"
+        },
+        {
+          "id": "./src/router/index.js",
+          "identifier": "C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\src\\router\\index.js",
+          "name": "./src/router/index.js"
+        },
+        {
+          "id": "./src/router/routes.js",
+          "identifier": "C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\src\\router\\routes.js",
+          "name": "./src/router/routes.js"
+        },
+        {
+          "id": "./src/components/creator.vue",
+          "identifier": "C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\vue-loader\\lib\\index.js??vue-loader-options!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\src\\components\\creator.vue",
+          "name": "./src/components/creator.vue"
+        },
+        {
+          "id": "./src/components/creator.vue?vue&type=script&lang=js&",
+          "identifier": "C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\vue-loader\\lib\\loaders\\pitcher.js??ref--4!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\vue-loader\\lib\\index.js??vue-loader-options!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\src\\components\\creator.vue?vue&type=script&lang=js&",
+          "name": "./src/components/creator.vue?vue&type=script&lang=js&"
+        },
+        {
+          "id": "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/components/creator.vue?vue&type=script&lang=js&",
+          "identifier": "C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\vue-loader\\lib\\index.js??vue-loader-options!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\src\\components\\creator.vue?vue&type=script&lang=js&",
+          "name": "./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/components/creator.vue?vue&type=script&lang=js&"
+        },
+        {
+          "id": "./src/components/attributes.vue",
+          "identifier": "C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\vue-loader\\lib\\index.js??vue-loader-options!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\src\\components\\attributes.vue",
+          "name": "./src/components/attributes.vue"
+        },
+        {
+          "id": "./src/components/attributes.vue?vue&type=template&id=7d0773e7&scoped=true&",
+          "identifier": "C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\vue-loader\\lib\\loaders\\pitcher.js??ref--4!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\vue-loader\\lib\\index.js??vue-loader-options!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\src\\components\\attributes.vue?vue&type=template&id=7d0773e7&scoped=true&",
+          "name": "./src/components/attributes.vue?vue&type=template&id=7d0773e7&scoped=true&"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
       "id": "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/components/creator.vue?vue&type=template&id=2716144c&scoped=true&",
       "identifier": "C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\vue-loader\\lib\\loaders\\templateLoader.js??vue-loader-options!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\vue-loader\\lib\\index.js??vue-loader-options!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\src\\components\\creator.vue?vue&type=template&id=2716144c&scoped=true&",
       "name": "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/components/creator.vue?vue&type=template&id=2716144c&scoped=true&",
       "index": 78,
       "index2": 76,
-      "size": 1285,
+      "size": 3507,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -1905,11 +2094,238 @@ start dev server
       "warnings": 0
     },
     {
+      "id": "./src/components/attributes.vue",
+      "identifier": "C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\vue-loader\\lib\\index.js??vue-loader-options!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\src\\components\\attributes.vue",
+      "name": "./src/components/attributes.vue",
+      "index": 82,
+      "index2": 86,
+      "size": 1279,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "creator"
+      ],
+      "issuer": "C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\vue-loader\\lib\\index.js??vue-loader-options!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\src\\components\\creator.vue?vue&type=script&lang=js&",
+      "issuerId": "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/components/creator.vue?vue&type=script&lang=js&",
+      "issuerName": "./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/components/creator.vue?vue&type=script&lang=js&",
+      "issuerPath": [
+        {
+          "id": "./src/index.js",
+          "identifier": "C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\src\\index.js",
+          "name": "./src/index.js"
+        },
+        {
+          "id": "./src/router/index.js",
+          "identifier": "C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\src\\router\\index.js",
+          "name": "./src/router/index.js"
+        },
+        {
+          "id": "./src/router/routes.js",
+          "identifier": "C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\src\\router\\routes.js",
+          "name": "./src/router/routes.js"
+        },
+        {
+          "id": "./src/components/creator.vue",
+          "identifier": "C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\vue-loader\\lib\\index.js??vue-loader-options!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\src\\components\\creator.vue",
+          "name": "./src/components/creator.vue"
+        },
+        {
+          "id": "./src/components/creator.vue?vue&type=script&lang=js&",
+          "identifier": "C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\vue-loader\\lib\\loaders\\pitcher.js??ref--4!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\vue-loader\\lib\\index.js??vue-loader-options!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\src\\components\\creator.vue?vue&type=script&lang=js&",
+          "name": "./src/components/creator.vue?vue&type=script&lang=js&"
+        },
+        {
+          "id": "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/components/creator.vue?vue&type=script&lang=js&",
+          "identifier": "C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\vue-loader\\lib\\index.js??vue-loader-options!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\src\\components\\creator.vue?vue&type=script&lang=js&",
+          "name": "./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/components/creator.vue?vue&type=script&lang=js&"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "id": "./src/components/attributes.vue?vue&type=script&lang=js&",
+      "identifier": "C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\vue-loader\\lib\\loaders\\pitcher.js??ref--4!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\vue-loader\\lib\\index.js??vue-loader-options!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\src\\components\\attributes.vue?vue&type=script&lang=js&",
+      "name": "./src/components/attributes.vue?vue&type=script&lang=js&",
+      "index": 85,
+      "index2": 82,
+      "size": 358,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "creator"
+      ],
+      "issuer": "C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\vue-loader\\lib\\index.js??vue-loader-options!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\src\\components\\attributes.vue",
+      "issuerId": "./src/components/attributes.vue",
+      "issuerName": "./src/components/attributes.vue",
+      "issuerPath": [
+        {
+          "id": "./src/index.js",
+          "identifier": "C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\src\\index.js",
+          "name": "./src/index.js"
+        },
+        {
+          "id": "./src/router/index.js",
+          "identifier": "C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\src\\router\\index.js",
+          "name": "./src/router/index.js"
+        },
+        {
+          "id": "./src/router/routes.js",
+          "identifier": "C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\src\\router\\routes.js",
+          "name": "./src/router/routes.js"
+        },
+        {
+          "id": "./src/components/creator.vue",
+          "identifier": "C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\vue-loader\\lib\\index.js??vue-loader-options!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\src\\components\\creator.vue",
+          "name": "./src/components/creator.vue"
+        },
+        {
+          "id": "./src/components/creator.vue?vue&type=script&lang=js&",
+          "identifier": "C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\vue-loader\\lib\\loaders\\pitcher.js??ref--4!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\vue-loader\\lib\\index.js??vue-loader-options!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\src\\components\\creator.vue?vue&type=script&lang=js&",
+          "name": "./src/components/creator.vue?vue&type=script&lang=js&"
+        },
+        {
+          "id": "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/components/creator.vue?vue&type=script&lang=js&",
+          "identifier": "C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\vue-loader\\lib\\index.js??vue-loader-options!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\src\\components\\creator.vue?vue&type=script&lang=js&",
+          "name": "./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/components/creator.vue?vue&type=script&lang=js&"
+        },
+        {
+          "id": "./src/components/attributes.vue",
+          "identifier": "C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\vue-loader\\lib\\index.js??vue-loader-options!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\src\\components\\attributes.vue",
+          "name": "./src/components/attributes.vue"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "id": "./src/components/attributes.vue?vue&type=style&index=0&id=7d0773e7&lang=scss&scoped=true&",
+      "identifier": "C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\vue-loader\\lib\\loaders\\pitcher.js??ref--4!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\css-loader\\index.js??ref--2-1!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\postcss-loader\\src\\index.js??ref--2-2!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\resolve-url-loader\\index.js!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\sass-loader\\dist\\cjs.js??ref--2-4!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\vue-loader\\lib\\index.js??vue-loader-options!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\src\\components\\attributes.vue?vue&type=style&index=0&id=7d0773e7&lang=scss&scoped=true&",
+      "name": "./src/components/attributes.vue?vue&type=style&index=0&id=7d0773e7&lang=scss&scoped=true&",
+      "index": 87,
+      "index2": 85,
+      "size": 984,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "creator"
+      ],
+      "issuer": "C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\vue-loader\\lib\\index.js??vue-loader-options!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\src\\components\\attributes.vue",
+      "issuerId": "./src/components/attributes.vue",
+      "issuerName": "./src/components/attributes.vue",
+      "issuerPath": [
+        {
+          "id": "./src/index.js",
+          "identifier": "C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\src\\index.js",
+          "name": "./src/index.js"
+        },
+        {
+          "id": "./src/router/index.js",
+          "identifier": "C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\src\\router\\index.js",
+          "name": "./src/router/index.js"
+        },
+        {
+          "id": "./src/router/routes.js",
+          "identifier": "C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\src\\router\\routes.js",
+          "name": "./src/router/routes.js"
+        },
+        {
+          "id": "./src/components/creator.vue",
+          "identifier": "C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\vue-loader\\lib\\index.js??vue-loader-options!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\src\\components\\creator.vue",
+          "name": "./src/components/creator.vue"
+        },
+        {
+          "id": "./src/components/creator.vue?vue&type=script&lang=js&",
+          "identifier": "C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\vue-loader\\lib\\loaders\\pitcher.js??ref--4!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\vue-loader\\lib\\index.js??vue-loader-options!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\src\\components\\creator.vue?vue&type=script&lang=js&",
+          "name": "./src/components/creator.vue?vue&type=script&lang=js&"
+        },
+        {
+          "id": "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/components/creator.vue?vue&type=script&lang=js&",
+          "identifier": "C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\vue-loader\\lib\\index.js??vue-loader-options!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\src\\components\\creator.vue?vue&type=script&lang=js&",
+          "name": "./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/components/creator.vue?vue&type=script&lang=js&"
+        },
+        {
+          "id": "./src/components/attributes.vue",
+          "identifier": "C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\vue-loader\\lib\\index.js??vue-loader-options!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\src\\components\\attributes.vue",
+          "name": "./src/components/attributes.vue"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "id": "./src/components/attributes.vue?vue&type=template&id=7d0773e7&scoped=true&",
+      "identifier": "C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\vue-loader\\lib\\loaders\\pitcher.js??ref--4!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\vue-loader\\lib\\index.js??vue-loader-options!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\src\\components\\attributes.vue?vue&type=template&id=7d0773e7&scoped=true&",
+      "name": "./src/components/attributes.vue?vue&type=template&id=7d0773e7&scoped=true&",
+      "index": 83,
+      "index2": 80,
+      "size": 220,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "creator"
+      ],
+      "issuer": "C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\vue-loader\\lib\\index.js??vue-loader-options!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\src\\components\\attributes.vue",
+      "issuerId": "./src/components/attributes.vue",
+      "issuerName": "./src/components/attributes.vue",
+      "issuerPath": [
+        {
+          "id": "./src/index.js",
+          "identifier": "C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\src\\index.js",
+          "name": "./src/index.js"
+        },
+        {
+          "id": "./src/router/index.js",
+          "identifier": "C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\src\\router\\index.js",
+          "name": "./src/router/index.js"
+        },
+        {
+          "id": "./src/router/routes.js",
+          "identifier": "C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\src\\router\\routes.js",
+          "name": "./src/router/routes.js"
+        },
+        {
+          "id": "./src/components/creator.vue",
+          "identifier": "C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\vue-loader\\lib\\index.js??vue-loader-options!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\src\\components\\creator.vue",
+          "name": "./src/components/creator.vue"
+        },
+        {
+          "id": "./src/components/creator.vue?vue&type=script&lang=js&",
+          "identifier": "C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\vue-loader\\lib\\loaders\\pitcher.js??ref--4!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\vue-loader\\lib\\index.js??vue-loader-options!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\src\\components\\creator.vue?vue&type=script&lang=js&",
+          "name": "./src/components/creator.vue?vue&type=script&lang=js&"
+        },
+        {
+          "id": "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./src/components/creator.vue?vue&type=script&lang=js&",
+          "identifier": "C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\vue-loader\\lib\\index.js??vue-loader-options!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\src\\components\\creator.vue?vue&type=script&lang=js&",
+          "name": "./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/components/creator.vue?vue&type=script&lang=js&"
+        },
+        {
+          "id": "./src/components/attributes.vue",
+          "identifier": "C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\vue-loader\\lib\\index.js??vue-loader-options!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\src\\components\\attributes.vue",
+          "name": "./src/components/attributes.vue"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
       "id": "./src/components/creator.vue",
       "identifier": "C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\vue-loader\\lib\\index.js??vue-loader-options!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\src\\components\\creator.vue",
       "name": "./src/components/creator.vue",
       "index": 76,
-      "index2": 84,
+      "index2": 92,
       "size": 1261,
       "cacheable": true,
       "built": true,
@@ -1947,7 +2363,7 @@ start dev server
       "identifier": "C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\vue-loader\\lib\\loaders\\pitcher.js??ref--4!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\vue-loader\\lib\\index.js??vue-loader-options!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\src\\components\\creator.vue?vue&type=script&lang=js&",
       "name": "./src/components/creator.vue?vue&type=script&lang=js&",
       "index": 79,
-      "index2": 80,
+      "index2": 88,
       "size": 352,
       "cacheable": true,
       "built": true,
@@ -1989,8 +2405,8 @@ start dev server
       "id": "./src/components/creator.vue?vue&type=style&index=0&id=2716144c&lang=scss&scoped=true&",
       "identifier": "C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\vue-loader\\lib\\loaders\\pitcher.js??ref--4!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\css-loader\\index.js??ref--2-1!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\postcss-loader\\src\\index.js??ref--2-2!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\resolve-url-loader\\index.js!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\sass-loader\\dist\\cjs.js??ref--2-4!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\node_modules\\vue-loader\\lib\\index.js??vue-loader-options!C:\\Users\\polle\\Desktop\\EveryThing\\GIT\\shadowrun-character-generator\\src\\components\\creator.vue?vue&type=style&index=0&id=2716144c&lang=scss&scoped=true&",
       "name": "./src/components/creator.vue?vue&type=style&index=0&id=2716144c&lang=scss&scoped=true&",
-      "index": 82,
-      "index2": 83,
+      "index": 90,
+      "index2": 91,
       "size": 978,
       "cacheable": true,
       "built": true,
@@ -3283,7 +3699,7 @@ start dev server
       "name": "./src/data/races.js",
       "index": 81,
       "index2": 78,
-      "size": 1060,
+      "size": 5535,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -3606,7 +4022,7 @@ start dev server
       "warnings": 0
     }
   ],
-  "filteredModules": 7,
+  "filteredModules": 8,
   "logging": {
     "webpack.buildChunkGraph.visitModules": {
       "entries": [],
