@@ -1,19 +1,24 @@
 <template>
     <div>
-        <div>
-            spent : {{spent}} / {{availableCp}}
-        </div>
-        <div class="attributes">
-            <div v-for="(name, index) in attributesNames" :key="name" class="attribute">
-                <div class="attribute-name">
-                    {{name}} :
-                </div>
-                <button @click="decrement(name, index, attributes[name].baseMin, attributes[name].baseMax)">-</button>
-                <div class="attribute-value">
-                    {{attributes[name].value}} / {{attributes[name].baseMax}} ({{attributes[name].max}})
-                </div>
-                <button @click="increment(name, index, attributes[name].baseMin, attributes[name].baseMax)">+</button> 
+        <div v-if="!isLoading">
+            <div>
+                spent : {{spent}} / {{availableCp}}
             </div>
+            <div class="attributes">
+                <div v-for="(name, index) in attributesNames" :key="name" class="attribute">
+                    <div class="attribute-name">
+                        {{name}} :
+                    </div>
+                    <button @click="decrement(name, index, attributes[name].baseMin, attributes[name].baseMax)">-</button>
+                    <div class="attribute-value">
+                        {{attributes[name].value}} / {{attributes[name].baseMax}} ({{attributes[name].max}})
+                    </div>
+                    <button @click="increment(name, index, attributes[name].baseMin, attributes[name].baseMax)">+</button> 
+                </div>
+            </div>
+        </div>
+        <div v-else>
+            ...loading
         </div>
     </div>
 </template>
@@ -37,7 +42,9 @@
     },
     data() {
         return {
+            isLoading: true,
             spent: 0,
+            hasOneMaxAttribute: false,
             attributesNames: [
                 'bod', 'agi', 'rea', 'str', 'cha', 'int', 'log', 'wil', 'ini'
             ],
@@ -45,6 +52,20 @@
                 0, 0, 0, 0, 0, 0, 0, 0, 0
             ]
         }
+    },
+    mounted() {
+        const cost = this.attributesNames.reduce((acc, item) => {
+            if(this.attributes[item].value !== this.attributes[item].baseMin){
+                if(this.attributes[item].value === this.attributes[item].baseMax){
+                    acc += (((this.attributes[item].value - (this.attributes[item].baseMin + 1)) * 10) + 25)
+                }else {
+                    acc += ((this.attributes[item].value - this.attributes[item].baseMin) * 10 )
+                }
+            }
+            return acc
+        }, 0)
+        this.spent = cost
+        this.isLoading = false
     },
     watch: {
         race(nv, ov) {
@@ -55,7 +76,7 @@
     },
     computed: {
         availableCp() {
-            return this.totalCp / 2
+            return Math.floor(this.totalCp / 2)
         }
     },
     methods: {
@@ -70,13 +91,19 @@
                 cost = 10
             }
             else {
-                cost = 25
+                if(!this.hasOneMaxAttribute){
+                    cost = 25
+                    this.hasOneMaxAttribute = true
+                } else {
+                    return
+                }
             }
             if((this.spent + cost) > this.availableCp) {
                 return
             }
             this.spent += cost
             this.attributes[name].value++
+            this.$emit("spent", cost)
         },
         decrement(name, index, min, max){
             const nb = this.attributes[name].value -1
@@ -90,12 +117,14 @@
             }
             else {
                 cost = 25
+                this.hasOneMaxAttribute = false
             }
             if((this.spent - cost) < 0) {
                 return
             }
             this.spent -= cost 
             this.attributes[name].value--
+            this.$emit("unspent", cost)
         }
     }
   }

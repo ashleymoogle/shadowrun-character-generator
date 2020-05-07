@@ -16,7 +16,7 @@
         / cost : {{raceCost}}
       </div>
       <div class="line-element">
-          <attributes :race="race" :attributes="attributes" :total-cp="cp" /> 
+          <attributes :race="race" :attributes="attributes" :total-cp="castCpToInt" @spent="spendInAttributes" @unspent="unspendInAttributes"/> 
       </div>
       <tree-view :data="char" :options="{maxDepth: 100}"></tree-view>
     </div>
@@ -36,6 +36,7 @@
     data() {
       return {
         spent: 0,
+        spentInAttributes: 0,
         isLoading: true,
         cp: 300,
         race: 'human',
@@ -43,6 +44,12 @@
       }
     },
     computed: {
+      castCpToInt() {
+        return parseInt(this.cp)
+      },
+      canReduceTotal() {
+        return Math.floor(this.cp / 2) >= this.spentInAttributes
+      },
       cpAfterRace() {
         return this.cp - mapRaces[this.race].cost
       },
@@ -72,21 +79,35 @@
     },
     methods: {
       restrictCp(e) {
-        const nb = e.target.value
-        if(this.cpLeft <= 0) {
+        const nb = parseInt(e.target.value)
+        if(!this.canReduceTotal){
+          this.cp++
+        }
+        if(this.cpLeft <= 0) { // en fonction des races
           this.cp = nb - this.cpLeft
-          this.render++
+          return
         }
         if(nb > 1000){
           this.cp = 1000
+          return
         }
       },
       spend(nb){
-        this.spent += nb
+        this.spent += nb 
       },
       unspend(nb){
         if(this.spent - nb >= 0){
           this.spent -= nb
+        }
+      },
+      spendInAttributes(nb){
+        this.spentInAttributes += nb 
+        this.spend(nb)
+      },
+      unspendInAttributes(nb){
+        if(this.spentInAttributes - nb >= 0){
+          this.spentInAttributes -= nb
+          this.unspend(nb)
         }
       }
     }
