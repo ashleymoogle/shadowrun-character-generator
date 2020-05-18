@@ -18,6 +18,9 @@
       <div class="line-element">
           <attributes :race="race" :attributes="attributes" :total-cp="castCpToInt" @spent="spendInAttributes" @unspent="unspendInAttributes"/> 
       </div>
+      <div class="line-element">
+        <skills :skills="skills" :left="cpLeft" @spent="spend" @unspent="unspend" />
+      </div>
       <tree-view :data="char" :options="{maxDepth: 100}"></tree-view>
     </div>
     <div v-else>
@@ -28,11 +31,13 @@
 
 <script>
   import mapRaces from '../data/races'
+  import mapSkills from '../data/skills'
+  import skills from './skills.vue'
   import attributes from './attributes.vue'
   import tooltip from './partials/tooltip.vue'
   export default {
-    name: 'class-view',
-    components: { attributes, tooltip },
+    name: 'creator',
+    components: { skills, attributes, tooltip },
     data() {
       return {
         spent: 0,
@@ -44,6 +49,9 @@
       }
     },
     computed: {
+      skills() {
+        return mapSkills
+      },
       castCpToInt() {
         return parseInt(this.cp)
       },
@@ -70,7 +78,8 @@
           cp: this.cp,
           race: this.race,
           traits: this.traits,
-          attributes: this.attributes
+          attributes: this.attributes,
+          skills: this.skills
         }
       }
     },

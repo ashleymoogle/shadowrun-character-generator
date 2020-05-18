@@ -133,6 +133,7 @@
 <style lang="scss" scoped>
     .attributes{
         display: flex;
+        flex-wrap: wrap;
         align-items: center;
         .attribute{
             margin-right: 20px;
